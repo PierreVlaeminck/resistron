@@ -1,4 +1,3 @@
-#resistron
 
 **Projet Resistron**
 
