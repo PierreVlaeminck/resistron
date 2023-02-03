@@ -44,7 +44,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;  
 import java.math.BigDecimal;  
   
- 5. ***Page de code de Class JavaFX : ResistronApplication***  
+ 6. ***Page de code de Class JavaFX : ResistronApplication***  
   
 *Librairies utilisées :*  
 import javafx.application.Application;  
@@ -52,14 +52,14 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;  
 import java.io.IOException;  
   
- 6. ***Installation du projet :***  
+ 7. ***Installation du projet :***  
   
 *Prérequis :*  
 *SceneBuilder :* Afin de pouvoir consulter la maquette.
 *Intellij* (ou un logiciel similaire de codage)  
 Aucun prérequis matériels particulier, ce program est très léger.  
   
- 7. ***Equipes*** :  
+ 8. ***Equipes*** :  
    
  Nous avons réalisés ce projet en équipe de 3, cependant chacun a codé de sont coté,  
  nous avons partagé et discuter des problèmes rencontrés ensemble,  
