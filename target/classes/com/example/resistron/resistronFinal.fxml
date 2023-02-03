@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Stage?>
+
+<Stage title="RESITRON PROGRAM" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.resistron.ResistronController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="434.0" prefWidth="807.0" style="-fx-background-color: white;">
+                <children>
+                    <Label fx:id="mLabelB1" layoutX="24.0" layoutY="124.0" prefHeight="19.0" prefWidth="50.0" style="-fx-background-color: white; -fx-border-color: black;" text=" Band 1" textFill="#00fff2">
+                        <effect>
+                            <Lighting bumpInput="$null">
+                                <light>
+                                    <Light.Distant>
+                                        <color>
+                                            <Color red="0.9868420958518982" green="0.9868420958518982" blue="0.9868420958518982" />
+                                        </color>
+                                    </Light.Distant>
+                                </light>
+                            </Lighting>
+                        </effect>
+                        <font>
+                            <Font name="System Bold" size="13.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mLabelB2" layoutX="25.0" layoutY="165.0" prefHeight="19.0" prefWidth="51.0" style="-fx-background-color: white; -fx-border-color: black;" text=" Band 2" textFill="#00fff2">
+                        <effect>
+                            <Lighting bumpInput="$null">
+                                <light>
+                                    <Light.Distant>
+                                        <color>
+                                            <Color red="0.9868420958518982" green="0.9868420958518982" blue="0.9868420958518982" />
+                                        </color>
+                                    </Light.Distant>
+                                </light>
+                            </Lighting>
+                        </effect>
+                        <font>
+                            <Font name="System Bold" size="13.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mLabelB3" layoutX="25.0" layoutY="209.0" prefHeight="19.0" prefWidth="51.0" style="-fx-background-color: white; -fx-border-color: black;" text=" Band 3" textFill="#00fff2">
+                        <effect>
+                            <Lighting bumpInput="$null">
+                                <light>
+                                    <Light.Distant>
+                                        <color>
+                                            <Color red="0.9868420958518982" green="0.9868420958518982" blue="0.9868420958518982" />
+                                        </color>
+                                    </Light.Distant>
+                                </light>
+                            </Lighting>
+                        </effect>
+                        <font>
+                            <Font name="System Bold" size="13.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mLabelB4" layoutX="25.0" layoutY="250.0" prefHeight="19.0" prefWidth="50.0" style="-fx-background-color: white; -fx-border-color: black;" text=" Band 4" textFill="#00fff2">
+                        <effect>
+                            <Lighting bumpInput="$null">
+                                <light>
+                                    <Light.Distant>
+                                        <color>
+                                            <Color red="0.9868420958518982" green="0.9868420958518982" blue="0.9868420958518982" />
+                                        </color>
+                                    </Light.Distant>
+                                </light>
+                            </Lighting>
+                        </effect>
+                        <font>
+                            <Font name="System Bold" size="13.0" />
+                        </font>
+                    </Label>
+                    <Button fx:id="bBlack1" layoutX="85.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbBlack1" style="-fx-background-color: black; -fx-border-color: black;" text="Black" textFill="#f5f2f2" />
+                    <Button fx:id="bBlack2" layoutX="85.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbBlack2" style="-fx-background-color: black; -fx-border-color: black;" text="Black" textFill="#f5f2f2" />
+                    <Button fx:id="bBlack3" layoutX="85.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbBlack3" style="-fx-background-color: black; -fx-border-color: black;" text="Black" textFill="#f5f2f2" />
+                    <Button fx:id="bBrown1" layoutX="139.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbBrown1" style="-fx-background-color: brown; -fx-border-color: black;" text="Brown" textFill="#f5f2f2" />
+                    <Button fx:id="bBrown2" layoutX="139.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbBrown2" style="-fx-background-color: brown; -fx-border-color: black;" text="Brown" textFill="#f5f2f2" />
+                    <Button fx:id="bBrown3" layoutX="139.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbBrown3" style="-fx-background-color: brown; -fx-border-color: black;" text="Brown" textFill="#f5f2f2" />
+                    <Button fx:id="bBrown4" layoutX="139.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickOnButtonbBrown4" style="-fx-background-color: brown; -fx-border-color: black;" text="Brown" textFill="#f5f2f2" />
+                    <Button fx:id="bRed1" layoutX="201.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbRed1" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: red; -fx-border-color: black;" text="Red" textFill="#f5f2f2" />
+                    <Button fx:id="bRed2" layoutX="201.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbRed2" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: red; -fx-border-color: black;" text="Red" textFill="#f5f2f2" />
+                    <Button fx:id="bRed3" layoutX="201.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbRed3" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: red; -fx-border-color: black;" text="Red" textFill="#f5f2f2" />
+                    <Button fx:id="bRed4" layoutX="201.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickOnButtonbRed4" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: red; -fx-border-color: black;" text="Red" textFill="#f5f2f2" />
+                    <Button fx:id="bOrange1" layoutX="257.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbOrange1" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Orange; -fx-border-color: black;" text="Orange" textFill="#f5f2f2" />
+                    <Button fx:id="bOrange2" layoutX="257.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbOrange2" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Orange; -fx-border-color: black;" text="Orange" textFill="#f5f2f2" />
+                    <Button fx:id="bOrange3" layoutX="257.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbOrange3" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Orange; -fx-border-color: black;" text="Orange" textFill="#f5f2f2" />
+                    <Button fx:id="bYellow1" layoutX="324.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbYellow1" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Yellow; -fx-border-color: black;" text="Yellow" textFill="#979191" />
+                    <Button fx:id="bYellow2" layoutX="324.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbYellow2" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Yellow; -fx-border-color: black;" text="Yellow" textFill="#979191" />
+                    <Button fx:id="bYellow3" layoutX="324.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbYellow3" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Yellow; -fx-border-color: black;" text="Yellow" textFill="#979191" />
+                    <Button fx:id="bGreen1" layoutX="390.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbGreen1" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: Green; -fx-border-color: black;" text="Green" textFill="#eeebeb" />
+                    <Button fx:id="bGreen2" layoutX="390.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbGreen2" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: Green; -fx-border-color: black;" text="Green" textFill="#eeebeb" />
+                    <Button fx:id="bGreen3" layoutX="390.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbGreen3" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: Green; -fx-border-color: black;" text="Green" textFill="#eeebeb" />
+                    <Button fx:id="bGreen4" layoutX="390.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickOnButtonbGreen4" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: Green; -fx-border-color: black;" text="Green" textFill="#eeebeb" />
+                    <Button fx:id="bBlue1" layoutX="450.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbBlue1" prefHeight="25.0" prefWidth="42.0" style="-fx-background-color: Blue; -fx-border-color: black;" text="Blue" textFill="#eeebeb" />
+                    <Button fx:id="bBlue2" layoutX="450.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbBlue2" prefHeight="25.0" prefWidth="42.0" style="-fx-background-color: Blue; -fx-border-color: black;" text="Blue" textFill="#eeebeb" />
+                    <Button fx:id="bBlue3" layoutX="451.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbBlue3" prefHeight="25.0" prefWidth="41.0" style="-fx-background-color: Blue; -fx-border-color: black;" text="Blue" textFill="#eeebeb" />
+                    <Button fx:id="bBlue4" layoutX="451.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickOnButtonbBlue4" prefHeight="25.0" prefWidth="41.0" style="-fx-background-color: Blue; -fx-border-color: black;" text="Blue" textFill="#eeebeb" />
+                    <Button fx:id="bPurple1" layoutX="501.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbPurple1" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Purple; -fx-border-color: black;" text="Purple" textFill="#eeebeb" />
+                    <Button fx:id="bPurple2" layoutX="501.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbPurple2" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Purple; -fx-border-color: black;" text="Purple" textFill="#eeebeb" />
+                    <Button fx:id="bPurple3" layoutX="501.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbPurple3" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Purple; -fx-border-color: black;" text="Purple" textFill="#eeebeb" />
+                    <Button fx:id="bPurple4" layoutX="501.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickOnButtonbPurple4" prefHeight="25.0" prefWidth="57.0" style="-fx-background-color: Purple; -fx-border-color: black;" text="Purple" textFill="#eeebeb" />
+                    <Button fx:id="bGray1" layoutX="568.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbGray1" prefHeight="27.0" prefWidth="48.0" style="-fx-background-color: gray; -fx-border-color: black;" text="Gray" textFill="#eeebeb" />
+                    <Button fx:id="bGray2" layoutX="569.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbGray2" prefHeight="27.0" prefWidth="46.0" style="-fx-background-color: gray; -fx-border-color: black;" text="Gray" textFill="#eeebeb" />
+                    <Button fx:id="bGray3" layoutX="568.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbGray3" prefHeight="26.0" prefWidth="47.0" style="-fx-background-color: gray; -fx-border-color: black;" text="Gray" textFill="#eeebeb" />
+                    <Button fx:id="bGray4" layoutX="567.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickOnButtonbGray4" prefHeight="27.0" prefWidth="49.0" style="-fx-background-color: gray; -fx-border-color: black;" text="Gray" textFill="#eeebeb" />
+                    <Button fx:id="bWhite1" layoutX="621.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickOnButtonbWhite1" prefHeight="25.0" prefWidth="49.0" style="-fx-border-color: black; -fx-background-color: white;" text="White" textFill="#0d0d0d" />
+                    <Button fx:id="bWhite2" layoutX="621.0" layoutY="161.0" mnemonicParsing="false" onAction="#clickOnButtonbWhite2" prefHeight="25.0" prefWidth="49.0" style="-fx-border-color: black; -fx-background-color: white;" text="White" />
+                    <Button fx:id="bWhite3" layoutX="621.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbWhite3" prefHeight="25.0" prefWidth="49.0" style="-fx-border-color: black; -fx-background-color: white;" text="White" />
+                    <Button fx:id="bGold3" layoutX="678.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbGold3" prefHeight="25.0" prefWidth="49.0" style="-fx-background-color: gold; -fx-border-color: black;" text="Gold" textFill="#5b5858" />
+                    <Button fx:id="bGold4" layoutX="678.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickOnButtonbGold4" prefHeight="25.0" prefWidth="49.0" style="-fx-background-color: gold; -fx-border-color: black;" text="Gold" textFill="#514d4d" />
+                    <Button fx:id="bSilver3" layoutX="733.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickOnButtonbSilver3" prefHeight="25.0" prefWidth="49.0" style="-fx-background-color: silver; -fx-border-color: black;" text="Silver" textFill="#4d4b4b" />
+                    <Button fx:id="bSilver4" layoutX="733.0" layoutY="246.0" mnemonicParsing="false" onAction="#clickOnButtonbSilver4" prefHeight="25.0" prefWidth="49.0" style="-fx-background-color: silver; -fx-border-color: black;" text="Silver" textFill="#4d4b4b" />
+                    <Label fx:id="tBoxResult" layoutX="546.0" layoutY="337.0" prefHeight="39.0" prefWidth="78.0" style="-fx-background-color: white;" text="RESULT : ">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mLabelPageTitle" layoutX="189.0" layoutY="26.0" prefHeight="35.0" prefWidth="426.0" style="-fx-background-color: white; -fx-border-color: black;" text="   RESISTRON: THE RESISTOR CALCULATOR">
+                        <font>
+                            <Font name="System Bold" size="20.0" />
+                        </font>
+                        <effect>
+                            <Lighting>
+                                <bumpInput>
+                                    <Shadow />
+                                </bumpInput>
+                                <light>
+                                    <Light.Distant>
+                                        <color>
+                                            <Color red="0.9473684430122375" green="0.9342105388641357" blue="0.9372807145118713" />
+                                        </color>
+                                    </Light.Distant>
+                                </light>
+                            </Lighting>
+                        </effect>
+                    </Label>
+                    <Rectangle fx:id="mShapeResistor" arcHeight="5.0" arcWidth="5.0" fill="#4f50e0" height="60.0" layoutX="45.0" layoutY="332.0" stroke="BLACK" strokeType="INSIDE" width="168.0">
+                        <cursor>
+                            <Cursor fx:constant="OPEN_HAND" />
+                        </cursor>
+                    </Rectangle>
+                    <Label fx:id="mLabelDoThis" layoutX="74.0" layoutY="77.0" prefHeight="26.0" prefWidth="466.0" text="Choose the color as seen on your resistor starting from the left.">
+                        <font>
+                            <Font name="Calibri Italic" size="18.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mLabelBand1Value" layoutX="244.0" layoutY="323.0" prefHeight="20.0" prefWidth="242.0" text="Value band 1 :">
+                        <font>
+                            <Font name="System Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mLabelBand2Value" layoutX="244.0" layoutY="346.0" prefHeight="20.0" prefWidth="248.0" text="Value band 2 :">
+                        <font>
+                            <Font name="System Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mLabelBand3Value" layoutX="244.0" layoutY="368.0" prefHeight="20.0" prefWidth="249.0" text="Value band 3 :">
+                        <font>
+                            <Font name="System Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mLabelBand4Value" layoutX="244.0" layoutY="392.0" prefHeight="20.0" prefWidth="244.0" text="Value band 4 :">
+                        <font>
+                            <Font name="System Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="511.0" layoutY="374.0" prefHeight="34.0" prefWidth="114.0" text="TOLERANCE :">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mLabelRB1" layoutX="67.0" layoutY="320.0" prefHeight="82.0" prefWidth="18.0" style="-fx-background-color: Grey; -fx-border-color: black;" />
+                    <Label fx:id="mLabelRB2" layoutX="98.0" layoutY="320.0" prefHeight="82.0" prefWidth="18.0" style="-fx-background-color: Grey; -fx-border-color: black;" />
+                    <Label fx:id="mLabelRB3" layoutX="130.0" layoutY="320.0" prefHeight="82.0" prefWidth="18.0" style="-fx-background-color: Grey; -fx-border-color: black;" />
+                    <Label fx:id="mLabelRB4" layoutX="164.0" layoutY="320.0" prefHeight="82.0" prefWidth="18.0" style="-fx-background-color: Grey; -fx-border-color: black;" />
+                    <TextField fx:id="displayResult" layoutX="629.0" layoutY="343.0" onAction="#display" prefHeight="26.0" prefWidth="110.0" />
+                    <TextField fx:id="displayTolerance" layoutX="628.0" layoutY="378.0" prefHeight="26.0" prefWidth="112.0" />
+                    <Label fx:id="displayUnit" layoutX="740.0" layoutY="341.0" prefHeight="32.0" prefWidth="59.0" />
+                </children>
+                <effect>
+                    <DropShadow />
+                </effect>
+            </AnchorPane>
+        </Scene>
+    </scene>
+</Stage>
