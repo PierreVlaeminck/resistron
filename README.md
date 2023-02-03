@@ -41,8 +41,7 @@ import java.io.IOException;
   
  6. ***Installation du projet :***  
 *Prérequis :*  
-*SceneBuilder :* maquette programme présente dans le répertoire du projet a l'emplacement suivant :  
-Main\resources\com\example\resistron  
+*SceneBuilder :* Afin de pouvoir consulter la maquette.
 *Intellij* (ou un logiciel similaire de codage)  
 Aucun prérequis matériels particulier, ce program est très léger.  
   
