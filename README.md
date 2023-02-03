@@ -55,7 +55,7 @@ import java.io.IOException;
  7. ***Installation du projet :***  
   
 *Prérequis :*  
-*SceneBuilder :* Afin de pouvoir consulter la maquette.
+*SceneBuilder :* Afin de pouvoir consulter la maquette.  
 *Intellij* (ou un logiciel similaire de codage)  
 Aucun prérequis matériels particulier, ce program est très léger.  
   
