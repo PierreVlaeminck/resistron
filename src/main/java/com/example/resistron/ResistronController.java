@@ -11,10 +11,14 @@ import javafx.scene.shape.Rectangle;
 import java.math.BigDecimal;
 
 /**
- * This method declares each button of the program as well as their position on the resistance,
- * it allows to change the color of the rings on the diagram of the resistance, and of the label at the beginning of each line,
- * which also corresponds to each ring of a resistance.
- * It also contains a method that calculates the value of the resistance, and allows the display of the unit, as well as its tolerance.
+ *
+ * Created with intellij IDEA <br/>
+ * In this class is the declaration of the program buttons, with the method that allows the calculation of the resistance,<br/>
+ * and it allows the display of the result as well as the unit and the tolerance.<br/>
+ * <br/>
+ * @author : Pierre, Ann et Mélanie
+ * @version : 03/02/2023
+ *
  */
 public class ResistronController {
 
@@ -24,12 +28,13 @@ public class ResistronController {
     private Button bBlack1;
 
     /**
-     * In the method below we declare the 1st button of line 1 named bBlack1 "b" = button + its color "Black" + "line number",
-     * all the buttons are named in this way, then the color of this one is repeated at the beginning of the line on the label,
-     * moreover the color of the button is also repeated on the diagram of the resistance, at the ring level concerned,
-     * finally we declare its value and link it to the "Display();' method, which calculates the value of the resistance,
-     * and allows the display of the unit and its tolerance.
-     * All methods are named "clickOnButton + b + button color + line" number works this way.
+     * In this method we declare the 1st button of line 1 named bBlack1 "b" = button + its color "Black" + "line number",<br/>
+     * all the buttons are named in this way, then the color of this one is repeated at the beginning of the line on the label,<br/>
+     * moreover the color of the button is also repeated on the diagram of the resistance, at the ring level concerned,<br/>
+     * finally we declare its value and link it to the "Display();' method, which calculates the value of the resistance,<br/>
+     * and allows the display of the unit and its tolerance.<br/>
+     * <br/>
+     * All methods are named "clickOnButton + b + button color + line" number works this way.<br/>
      */
     @FXML
     public void clickOnButtonbBlack1() {
@@ -50,7 +55,7 @@ public class ResistronController {
     private Button bBlack2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbBlack2() {
@@ -70,7 +75,7 @@ public class ResistronController {
     private Button bBlack3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbBlack3() {
@@ -91,7 +96,7 @@ public class ResistronController {
     private Button bBrown1;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbBrown1() {
@@ -111,7 +116,7 @@ public class ResistronController {
     private Button bBrown2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbBrown2() {
@@ -131,7 +136,7 @@ public class ResistronController {
     private Button bBrown3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbBrown3() {
@@ -151,7 +156,7 @@ public class ResistronController {
     private Button bBrown4;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbBrown4() {
@@ -172,7 +177,7 @@ public class ResistronController {
     private Button bRed1;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbRed1() {
@@ -187,7 +192,7 @@ public class ResistronController {
     private Button bRed2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbRed2() {
@@ -202,7 +207,7 @@ public class ResistronController {
     private Button bRed3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbRed3() {
@@ -217,7 +222,7 @@ public class ResistronController {
     private Button bRed4;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbRed4() {
@@ -233,7 +238,7 @@ public class ResistronController {
     private Button bOrange1;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbOrange1() {
@@ -248,7 +253,7 @@ public class ResistronController {
     private Button bOrange2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbOrange2() {
@@ -263,7 +268,7 @@ public class ResistronController {
     private Button bOrange3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbOrange3() {
@@ -279,7 +284,7 @@ public class ResistronController {
     private Button bYellow1;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbYellow1() {
@@ -294,7 +299,7 @@ public class ResistronController {
     private Button bYellow2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbYellow2() {
@@ -309,7 +314,7 @@ public class ResistronController {
     private Button bYellow3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbYellow3() {
@@ -325,7 +330,7 @@ public class ResistronController {
     private Button bGreen1;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbGreen1() {
@@ -340,7 +345,7 @@ public class ResistronController {
     private Button bGreen2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbGreen2() {
@@ -355,7 +360,7 @@ public class ResistronController {
     private Button bGreen3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbGreen3() {
@@ -370,7 +375,7 @@ public class ResistronController {
     private Button bGreen4;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}}
      */
     @FXML
     public void clickOnButtonbGreen4() {
@@ -386,7 +391,7 @@ public class ResistronController {
     private Button bBlue1;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbBlue1() {
@@ -401,7 +406,7 @@ public class ResistronController {
     private Button bBlue2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbBlue2() {
@@ -416,7 +421,7 @@ public class ResistronController {
     private Button bBlue3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbBlue3() {
@@ -431,7 +436,7 @@ public class ResistronController {
     private Button bBlue4;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbBlue4() {
@@ -447,7 +452,7 @@ public class ResistronController {
     private Button bPurple1;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbPurple1() {
@@ -462,7 +467,7 @@ public class ResistronController {
     private Button bPurple2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbPurple2() {
@@ -477,7 +482,7 @@ public class ResistronController {
     private Button bPurple3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbPurple3() {
@@ -492,7 +497,7 @@ public class ResistronController {
     private Button bPurple4;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbPurple4() {
@@ -508,7 +513,7 @@ public class ResistronController {
     private Button bGray1;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbGray1() {
@@ -523,7 +528,7 @@ public class ResistronController {
     private Button bGray2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbGray2() {
@@ -538,7 +543,7 @@ public class ResistronController {
     private Button bGray3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbGray3() {
@@ -553,7 +558,7 @@ public class ResistronController {
     private Button bGray4;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbGray4() {
@@ -569,7 +574,7 @@ public class ResistronController {
     private Button bWhite1;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbWhite1() {
@@ -584,7 +589,7 @@ public class ResistronController {
     private Button bWhite2;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbWhite2() {
@@ -599,7 +604,7 @@ public class ResistronController {
     private Button bWhite3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbWhite3() {
@@ -615,7 +620,7 @@ public class ResistronController {
     private Button bGold3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbGold3() {
@@ -630,7 +635,7 @@ public class ResistronController {
     private Button bGold4;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbGold4() {
@@ -646,7 +651,7 @@ public class ResistronController {
     private Button bSilver3;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbSilver3() {
@@ -666,7 +671,7 @@ public class ResistronController {
     private Button bSilver4;
 
     /**
-     * This method works in the same way as the method "clickOnButtonbBlack1"
+     * Same function as the method {@link #clickOnButtonbBlack1()}
      */
     @FXML
     public void clickOnButtonbSilver4() {
@@ -762,12 +767,12 @@ public class ResistronController {
     private TextField displayTolerance;
 
     /**
-     * This method calculates the value of the resistance with a BigDecimal, and then displays it in the result field of the program,
-     * with the unit and tolerance displayed in their respective fields.
-     * Each ring is declared in this method, as well as the unit, with an "if/else if" loop,
-     * in order to determine if it is Ohms, KOhms, MOhms or GOhms.
-     * Moreover, once the value of the resistance, the unit and the tolerance are displayed, the text fields cannot be modified by the user,
-     * but he can make a copy/paste.
+     * This method calculates the value of the resistance with a BigDecimal, and then displays it in the result field of the program,<br/>
+     * with the unit and tolerance displayed in their respective fields.<br/>
+     * Each ring is declared in this method, as well as the unit, with an "if/else if" loop,<br/>
+     * in order to determine if it is Ohms, KOhms, MOhms or GOhms.<br/>
+     * Moreover, once the value of the resistance, the unit and the tolerance are displayed,<br/>
+     * the text fields cannot be modified by the user, but he can copy/paste.<br/>
      */
     @FXML
     public void display() {

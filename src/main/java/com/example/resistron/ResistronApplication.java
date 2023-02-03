@@ -7,25 +7,32 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * This method makes it possible to launch the Resistron program,
- * moreover in this one it is declared the variables for each line from 1 to 4,
- * which corresponds to the rings of the resistance from left to right.
+ * Created with Intellij IDEA<br/>
+ * This class makes it possible to launch the Resistron program,<br/>
+ * moreover in this one we declare the variables for each line from 1 to 4,<br/>
+ * which corresponds to the rings of the resistance from left to right.<br/>
+ * <br/>
+ *
+ * @author : Pierre, Ann and Mélanie
+ * @version : 03/02/2023
+ *
  */
 
 public class ResistronApplication extends Application {
 
     /**
-     * The main method that contains the start method, which allows you to launch the Resistron program.
+     * The main method that contains the start method, which allows you to launch the Resistron program.<br/>
      *
      * @param args
+     *
      */
     public static void main(String[] args) {
         launch(args);
     }
 
     /**
-     * This method contains the code to launch the program, as well as the declaration of variables for the program’s color lines,
-     * which corresponds to each ring present on the resistance.
+     * This method contains the code to launch the program, as well as the declaration of variables for the program’s color lines,<br/>
+     * which corresponds to each ring present on the resistance.<br/>
      *
      * @param primaryStage
      * @throws IOException
