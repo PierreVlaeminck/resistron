@@ -2,7 +2,7 @@
 # **Projet Resistron**
 
 !image programme
-[url=https://zupimages.net/viewer.php?id=23/05/1xav.png][img]https://zupimages.net/up/23/05/1xav.png[/img][/url]
+<a href="https://zupimages.net/viewer.php?id=23/05/1xav.png"><img src="https://zupimages.net/up/23/05/1xav.png" alt="" /></a>
 
  1. ***Description du projet :***
 Ce programme ce programme a pour but de calculer la valeur d'une résistance a 4 couleurs, pour ensuite que celui-ci affiche la valeur,  
