@@ -1,5 +1,8 @@
 
-**Projet Resistron**
+# **Projet Resistron**
+
+!Image programme :
+(https://zupimages.net/viewer.php?id=23/05/1xav.png)
 
  1. ***Description du projet :***
 Ce programme ce programme a pour but de calculer la valeur d'une résistance a 4 couleurs, pour ensuite que celui-ci affiche la valeur,  
