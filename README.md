@@ -1,7 +1,6 @@
 
 # **Projet Resistron**
 
-!image programme
 <a href="https://zupimages.net/viewer.php?id=23/05/1xav.png"><img src="https://zupimages.net/up/23/05/1xav.png" alt="" /></a>
 
  1. ***Description du projet :***
