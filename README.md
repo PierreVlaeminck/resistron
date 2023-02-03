@@ -48,7 +48,8 @@ import java.io.IOException;
 Aucun prérequis matériels particulier, ce program est très léger.  
   
  7. ***Equipes*** :  
- Nous avons réalisés ce projet en équipe de 3, cependant chacun a codé de sont coté, nous avons partagé et discuter des problèmes rencontrés ensemble,  
+ Nous avons réalisés ce projet en équipe de 3, cependant chacun a codé de sont coté,  
+ nous avons partagé et discuter des problèmes rencontrés ensemble,  
  mais nous tenions tous a le réaliser du début a la fin a notre manière.  
   
 **Merci d'avoir pris le temp de lire le readme**  
