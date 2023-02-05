@@ -31,35 +31,15 @@ Contient 2 page de code.
  JavaFX  
  Java  
  Import @FXML de l'interface graphique réalisé sous Scenebuilder.  
-
- 5. ***Page de code de Class Java : ResistronController***  
   
-*Librairies utilisées :*  
-import javafx.fxml.FXML;  
-import javafx.scene.control.Button;   
-import javafx.scene.control.Label;  
-import javafx.scene.control.TextField;  
-import javafx.scene.layout.Background;  
-import javafx.scene.paint.Color;  
-import javafx.scene.shape.Rectangle;  
-import java.math.BigDecimal;  
-  
- 6. ***Page de code de Class JavaFX : ResistronApplication***  
-  
-*Librairies utilisées :*  
-import javafx.application.Application;  
-import javafx.fxml.FXMLLoader;  
-import javafx.stage.Stage;  
-import java.io.IOException;  
-  
- 7. ***Installation du projet :***  
+ 4. ***Installation du projet :***  
   
 *Prérequis :*  
 *SceneBuilder :* Afin de pouvoir consulter la maquette.  
 *Intellij* (ou un logiciel similaire de codage)  
 Aucun prérequis matériels particulier, ce program est très léger.  
   
- 8. ***Equipes*** :  
+ 5. ***Equipes*** :  
    
  Nous avons réalisés ce projet en équipe de 3, cependant chacun a codé de sont coté,  
  nous avons partagé et discuter des problèmes rencontrés ensemble,  
